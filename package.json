@@ -5,7 +5,9 @@
   "homepage": "https://smug12345.github.io/matriv-game/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/smug12345/matriv-game"
+    "url": "https://github.com/smug12345/matriv-game",
+    "npm": "6.9.0",
+    "node": "10.16.0"
   },
   "author": {
     "name": "Yash Joshi",
