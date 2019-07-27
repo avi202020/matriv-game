@@ -2,7 +2,7 @@
   "name": "marvel-matriv",
   "version": "0.5.1",
   "description": "Marvel game built upon react and styled components",
-  "homepage": "https://smug12345.github.io/matriv-game/",
+  "homepage": "https://smug12345.github.io/matriv-game",
   "repository": {
     "type": "git",
     "url": "https://github.com/smug12345/matriv-game"
@@ -55,7 +55,9 @@
     "lint:css": "stylelint './src/**/*.js'",
     "commitmsg": "commitlint -E GIT_PARAMS",
     "precommit": "lint-staged && cross-env CI=true react-scripts test --env=jsdom",
-    "release": "standard-version"
+    "release": "standard-version",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
