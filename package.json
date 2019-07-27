@@ -1,15 +1,15 @@
 {
   "name": "marvel-matriv",
   "version": "0.5.1",
-  "description": "Marvel matriv (Just A Rather Very Interesting Game) is a game that lets you find and discover Marvel Comics characters based on their name, image and description!",
-  "homepage": "https://yassinedoghri.github.io/marvel-matriv/",
+  "description": "Marvel game built upon react and styled components",
+  "homepage": "https://smug12345.github.io/matriv-game/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yassinedoghri/marvel-matriv"
+    "url": "https://github.com/smug12345/matriv-game"
   },
   "author": {
     "name": "Yash Joshi",
-    "email": "yash.jsohi@gmail.com"
+    "email": "yash.joshi@gmail.com"
   },
   "keywords": [
     "marvel",
